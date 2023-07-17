@@ -1,14 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Tile from './Tile';
 
-// created component name Tile
-function Tile(){
-  return(
-    <div>
-      <span>x</span>
-    </div>
-  )
-}
 
 
 
