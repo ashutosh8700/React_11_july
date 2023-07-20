@@ -1,9 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Tile from './Tile';
-
-
-
+import {A,B} from './named_export.js'; // named export
 
 function App() {
   return (
@@ -14,7 +12,8 @@ function App() {
       <span className = "class"> test </span> 
       {/* calling the Tile component this componenet can be used multiple times*/}
       <Tile/>
-      
+      <p>{A}</p>
+      <p>{B}</p>
     </>
   );
 }
